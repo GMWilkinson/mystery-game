@@ -1,0 +1,78 @@
+// .grid-section {
+//   background-color: papayawhip;
+//   border: 1px solid black;
+//   width: 10%;
+//   height: 10%;
+// }
+// .grid-container {
+//   display: grid;
+//   grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+//   padding: 10px;
+// }
+// .grid-section {
+//   background-color: rgba(255, 255, 255, 0.8);
+//   border: 1px solid rgba(0, 0, 0, 0.8);
+//   padding: 20px;
+//   font-size: 30px;
+//   text-align: center;
+// }
+// .circle {
+//
+// }
+// .red {
+//   background-color: red;
+// }
+// .green {
+//   background-color: green;
+// }
+// .blue {
+//   background-color: blue;
+// }
+// .papayawhip {
+//   background-color: papayawhip;
+// }
+// .purple {
+//   background-color: purple;
+// }
+// .white {
+//   background-color: white;
+// }
+// .orange {
+//   background-color: orange;
+// }
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+.dash {
+  border-top: 1px solid #999999;
+  position: fixed;
+  top: 15%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #eefeff;
+}
+.dash-main {
+  padding-top: 3rem;
+}
+// rightbar
+.right-bar {
+  border-left: 1px solid #999999;
+  height: 100%;
+  background-color: #ddfeff;
+  padding: 1rem;
+}
+// leftbar
+.left-bar {
+  border-right: 1px solid #999999;
+  height: 100%;
+  background-color: #ddfeff;
+  padding: 1rem;
+  .caller {
+    border: .5px solid black;
+    min-height: 6rem;
+    width: 80%;
+    margin: auto;
+  }
+}
